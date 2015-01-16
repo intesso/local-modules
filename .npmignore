@@ -1,4 +1,9 @@
+# folders
 components
 lib
 node_modules
+.idea
+
+# files
 test.js
+

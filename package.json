@@ -1,6 +1,6 @@
 {
   "name": "local-modules",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "require local modules with absolute path ",
   "main": "index.js",
   "scripts": {
