@@ -8,7 +8,9 @@ require local modules in node can be annoying with relative paths. e.g.
     var cache = require('../../../plugins/cache');
 ```
 
-detailed problem description and discussion as well as different solutions can be found here: [better local require paths](https://gist.github.com/branneman/8048520)
+detailed problem description and discussion as well as different solutions can be found here:
+
+[better local require paths](https://gist.github.com/branneman/8048520)
 
 ## solution / hack
 treat specific application folders like the `node_modules` folder, so that we can require stuff without ugly relative paths.
