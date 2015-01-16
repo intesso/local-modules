@@ -21,6 +21,7 @@ treat specific application folders like the `node_modules` folder, so that we ca
 ###use
 
 with the given project structure:
+
 ```
     .
     ├── index.js
@@ -63,8 +64,8 @@ you can require this from the app directory:
 ```
 
 or within the `lib/plugins/cache/lru/index.js` file, you can require this:
-```javascript
 
+```javascript
     require('plugins');
     require('lib-test');
     require('components-test');
