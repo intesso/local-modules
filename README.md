@@ -2,15 +2,16 @@
 require local modules with absolute path
 
 ## problem
-require local modules in node can be annoying with relative paths.
-e.g.
-    ```javascript
-    var cache = require('../../../plugins/cache');
-    ```
+require local modules in node can be annoying with relative paths. e.g.
 
-see: [better local require paths](https://gist.github.com/branneman/8048520)
+```javascript
+    var cache = require('../../../plugins/cache');
+```
+
+detailed problem description and discussion as well as different solutions can be found here: [better local require paths](https://gist.github.com/branneman/8048520)
 
 ## solution / hack
+treat specific application folders like the `node_modules` folder, so that we can require stuff without ugly relative paths.
 
 ###install
 `npm install local-modules --save`
@@ -73,7 +74,9 @@ tested so far with node 0.8, 0.10, 0.11
  1. clone the repo
  2. run `node test`
 
+## inspiration
+https://gist.github.com/branneman/8048520
 
 ## credits
-@branneman for the great article on this topic
-@joelabair for the cool hack
+ - @branneman   for the great article on this topic
+ - @joelabair   for the cool hack
