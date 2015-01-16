@@ -1,0 +1,21 @@
+{
+  "name": "local-modules",
+  "version": "1.0.0",
+  "description": "require local modules with absolute path ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/intesso/local-modules"
+  },
+  "keywords": [
+    "require",
+    "local",
+    "modules",
+    "node_modules"
+  ],
+  "author": "Andi Neck",
+  "license": "MIT"
+}
